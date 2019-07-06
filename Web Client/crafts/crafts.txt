@@ -1,0 +1,14 @@
+Vendors		Item	Image	Price
+
+Fancy store		Earing	e2	50
+		Necklace	c1	100
+		Bangles	b1	65
+
+Handi Bags		Lunch bag	ba3	150
+		Bag	ba1	200
+		Basket	ba2	100	
+
+Pottery		Water can	pot	150
+		Pan	pan	100
+		Pot	p	60
+		Bottle	bot	75

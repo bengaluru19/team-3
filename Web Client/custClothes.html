@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Customer Menu</title>
+	<title>Mark My Customer</title>
 	<!--<meta name="description" content="Blueprint: A basic template for a responsive multi-level menu" />
 	<meta name="keywords" content="blueprint, template, html, css, menu, responsive, mobile-friendly" />
 	<meta name="author" content="Codrops" />
@@ -43,7 +43,8 @@
 		<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
 		<nav id="ml-menu" class="menu">
 			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
-			<div class="menu__wrap">
+			<img source="silk.jpg" width="100" height="100" style="position:absolute;top:100px;left:400px;"/> 
+			<!--<div class="menu__wrap">
 				<ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
 					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Clothing</a></li>
 					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">Food</a></li>
@@ -51,14 +52,14 @@
 					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4" aria-owns="submenu-4" href="#">Crafts</a></li>
 				</ul>
 				<!-- Submenu 1 -->
-				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Clothing">
+				<!--<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Clothing">
 					<li class="menu__item" role="menuitem"><a class="menu__link" href="#"></a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='menwear'">Mens' Wears</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='womenwear'">Womens' Wears</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='kidwear'">Kid's Wears</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mens' Wears</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Womens' Wears</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Kid's Wears</a></li>
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mushrooms</a></li>
 					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1-1" aria-owns="submenu-1-1" href="#">Sale %</a></li>-->
-				</ul>
+				<!--</ul>
 				<!-- Submenu 1-1 -->
 			<!--	<ul data-menu="submenu-1-1" id="submenu-1-1" class="menu__level" tabindex="-1" role="menu" aria-label="Sale %">
 					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Fast Food</a></li>
@@ -67,12 +68,12 @@
 					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Fruits and Vegetables</a></li>
 				</ul>-->
 				<!-- Submenu 2 -->
-				<ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Fruits">
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='fastfood'">Fast Food</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='tea'">Tea and Coffee</a></li>
+				<!--<ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Fruits">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Fast Food</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Tea and Coffee</a></li>
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2-1" aria-owns="submenu-2-1" href="#"></a></li>-->
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='chats'">Chats</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendors.html?category='veggies'">Fruits and Vegetables</a></li>
+					<!--<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Chats</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Fruits and Vegetables</a></li>
 				</ul>
 				<!-- Submenu 2-1 -->
 				<!--<ul data-menu="submenu-2-1" id="submenu-2-1" class="menu__level" tabindex="-1" role="menu" aria-label="Special Selection">
@@ -81,10 +82,10 @@
 					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Vitamin Boosters</a></li>
 				</ul>-->
 				<!-- Submenu 3 -->
-				<ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Grains">
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendor.html?category='tailor'">Tailor</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendor.html?category='maids'">Maids</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendor.html?category='laundery'">Laundery</a></li>
+				<!--<ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Grains">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Tailor</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Maids</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Laundery</a></li>
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" href="#"></a></li>-->
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Durum Wheat</a></li>
 					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3-1" aria-owns="submenu-3-1" href="#">Promo Packs</a></li>
@@ -95,12 +96,12 @@
 					<li class="menu__item" role="menuitem"><a class="menu__link" href="#"></a></li>
 					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Bags</a></li>
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Flour Packs</a></li>-->
-				</ul>
+				<!--</ul>
 				<!-- Submenu 4 -->
-				<ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="Mylk &amp; Drinks">
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendor.html?category='pottery'">Pottery</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendor.html?category='jewellery'">Handmade jewellery</a></li>
-					<li class="menu__item" role="menuitem"><a class="menu__link" href="vendor.html?category='bags'">Bags</a></li>
+				<!--<ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="Mylk &amp; Drinks">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Pottery</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Handmade jewellery</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Bags</a></li>
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Nutri Drinks</a></li>-->
 					<!--<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4-1" aria-owns="submenu-4-1" href="#">Selection</a></li>
 				</ul>
@@ -113,7 +114,7 @@
 			</div> 
 		</nav>
 		<div class="content">
-			<p class="info">Please choose a category</p>
+			<p class="info"></p>
 			<!-- Ajax loaded content here -->
 		</div>
 	</div>
@@ -125,11 +126,11 @@
 	(function() ***REMOVED***
 		var menuEl = document.getElementById('ml-menu'),
 			mlmenu = new MLMenu(menuEl, ***REMOVED***
-				 breadcrumbsCtrl : true, // show breadcrumbs
-				 initialBreadcrumb : 'all', // initial breadcrumb text
+				// breadcrumbsCtrl : true, // show breadcrumbs
+				// initialBreadcrumb : 'all', // initial breadcrumb text
 				backCtrl : false, // show back button
-				 itemsDelayInterval : 60, // delay between each menu item sliding animation
-				//ItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+				// itemsDelayInterval : 60, // delay between each menu item sliding animation
+				onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
 			***REMOVED***
 
 		// mobile menu toggle
@@ -160,7 +161,7 @@
 			classie.add(gridWrapper, 'content--loading');
 			setTimeout(function() ***REMOVED***
 				classie.remove(gridWrapper, 'content--loading');
-				gridWrapper.innerHTML = '';
+				gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
 			***REMOVED***, 700);
 		***REMOVED***
 	***REMOVED***)();

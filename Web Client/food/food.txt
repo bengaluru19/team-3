@@ -1,0 +1,20 @@
+Vendor		Item		Image		Price
+
+SA Grocery	Apple		apple		150/kg
+		Banana		banana		30/dozen
+		Pomegranate	pomegranate	125/kg
+		Onion		onion		75/kg
+		Green Chilli		chilli		40/kg
+		Tomato		tomato		50/kg
+
+Chat House	Pani Puri		pp		20
+		Bhel Puri		bp		20
+		Samosa		s		10
+
+JP Fast Foods	Veg Noodles	n		80
+		Chilli parota	c		75
+		Veg Fried rice	f		70
+
+Tea Coffee		Tea		t		10
+		Coffee		co		12
+		Bun		bun		8
