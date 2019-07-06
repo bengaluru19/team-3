@@ -1,0 +1,132 @@
+
+body ***REMOVED***
+	background: url(../form-3/assets/img/bg.jpg) left top repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+***REMOVED***
+
+strong ***REMOVED*** font-weight: 500; ***REMOVED***
+
+a, a:hover, a:focus ***REMOVED***
+	color: #19b9e7;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+***REMOVED***
+a:hover, a:focus ***REMOVED*** border-bottom: 1px dotted #19b9e7; ***REMOVED***
+
+h1, h2 ***REMOVED***
+	margin-top: 10px;
+	font-size: 38px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+***REMOVED***
+
+h3 ***REMOVED***
+	font-size: 22px;
+    font-weight: 300;
+    color: #555;
+    line-height: 30px;
+***REMOVED***
+.no-margin-top h3 ***REMOVED*** margin-top: 0; ***REMOVED***
+
+img ***REMOVED*** max-width: 100%; ***REMOVED***
+
+::-moz-selection ***REMOVED*** background: #19b9e7; color: #fff; text-shadow: none; ***REMOVED***
+::selection ***REMOVED*** background: #19b9e7; color: #fff; text-shadow: none; ***REMOVED***
+
+
+.container ***REMOVED***
+	padding-bottom: 60px;
+***REMOVED***
+
+.section-container ***REMOVED***
+    margin: 0 auto;
+***REMOVED***
+
+.section-description ***REMOVED***
+	margin-top: 60px;
+    padding-bottom: 10px;
+***REMOVED***
+.section-description.no-margin-top ***REMOVED*** margin-top: 0; ***REMOVED***
+
+.section-description p ***REMOVED***
+    margin-top: 20px;
+	padding: 0 120px;
+***REMOVED***
+
+
+.top ***REMOVED***
+	margin: 0 auto;
+	padding: 40px 0 50px 0;
+***REMOVED***
+
+.top .divider-1 span ***REMOVED***
+	background: rgba(255, 255, 255, 0.8);
+***REMOVED***
+
+.top h1 ***REMOVED***
+	margin-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+***REMOVED***
+
+.top p ***REMOVED***
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+***REMOVED***
+
+
+.layouts ***REMOVED***
+	border-top: 1px solid #ddd;
+***REMOVED***
+
+.layout-box ***REMOVED***
+	padding: 30px 20px 20px 20px;
+***REMOVED***
+
+.layout-box h3 ***REMOVED***
+	padding: 10px 0;
+***REMOVED***
+
+.layout-box p ***REMOVED***
+	margin-top: 20px;
+	margin-bottom: 0;
+***REMOVED***
+
+.layout-box img ***REMOVED***
+	border: 5px solid #eee;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+***REMOVED***
+
+.layout-box a:hover img ***REMOVED*** border-color: #ddd; ***REMOVED***
+
+.footer ***REMOVED***
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #ddd;
+***REMOVED***
+
+
+@media (min-width: 768px) and (max-width: 991px) ***REMOVED***
+	
+	.section-description p ***REMOVED*** padding: 0; ***REMOVED***
+	
+***REMOVED***
+
+@media (max-width: 767px) ***REMOVED***
+
+	.section-description p ***REMOVED*** padding: 0; ***REMOVED***
+	
+***REMOVED***
+
+@media (max-width: 415px) ***REMOVED***
+	
+	h1, h2 ***REMOVED*** font-size: 32px; ***REMOVED***
+
+***REMOVED***
