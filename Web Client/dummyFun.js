@@ -45,12 +45,20 @@ function getProducts(vendorID) ***REMOVED***
 ***REMOVED***
 
 function orderProducts(vendorID,productID,ProductName,Count) ***REMOVED***
-	return database.ref('Users/'+vendorID+'/CustomerOrders').set(***REMOVED***
+	var xhttp = new XMLHttpRequest();
+	xhttp.open("GET", "https://ghuqwtuoqc.execute-api.us-west-2.amazonaws.com/Production", true);
+	xhttp.send();
+	xhttp.onreadystatechange = function() ***REMOVED***
+    if (this.readyState == 4 && this.status == 200) ***REMOVED***
+      return database.ref('Users/'+vendorID+'/CustomerOrders').set(***REMOVED***
 		OrderStatus : 1,
 		ProductCount : Count,
 		ProductID : productID,
 		ProductName : ProductName
 	***REMOVED***
+    ***REMOVED***
+  ***REMOVED***;
+	
 ***REMOVED***
 
 function isAccepted(vendorID,productID) ***REMOVED***
@@ -67,4 +75,4 @@ function isAccepted(vendorID,productID) ***REMOVED***
 	return res1;
 ***REMOVED***
 
-console.log(getVendor("दूध",22,22).then((res)=>***REMOVED***console.log(res)***REMOVED***));
+orderProducts(123,12,'Apple',10231);
