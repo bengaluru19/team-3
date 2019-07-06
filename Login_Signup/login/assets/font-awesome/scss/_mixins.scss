@@ -1,0 +1,26 @@
+// Mixins
+// --------------------------
+
+@mixin fa-icon() ***REMOVED***
+  display: inline-block;
+  font: normal normal normal #***REMOVED***$fa-font-size-base***REMOVED***/#***REMOVED***$fa-line-height-base***REMOVED*** FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+***REMOVED***
+
+@mixin fa-icon-rotate($degrees, $rotation) ***REMOVED***
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#***REMOVED***$rotation***REMOVED***
+  -webkit-transform: rotate($degrees);
+      -ms-transform: rotate($degrees);
+          transform: rotate($degrees);
+***REMOVED***
+
+@mixin fa-icon-flip($horiz, $vert, $rotation) ***REMOVED***
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#***REMOVED***$rotation***REMOVED***
+  -webkit-transform: scale($horiz, $vert);
+      -ms-transform: scale($horiz, $vert);
+          transform: scale($horiz, $vert);
+***REMOVED***
