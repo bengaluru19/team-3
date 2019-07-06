@@ -1,0 +1,304 @@
+/* General Blueprint Style */
+
+@font-face ***REMOVED***
+	font-family: 'bpicons';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/bpicons/bpicons.eot');
+	src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'), url('../fonts/bpicons/bpicons.woff') format('woff'), url('../fonts/bpicons/bpicons.ttf') format('truetype'), url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
+***REMOVED***/* Made with http://icomoon.io/ */
+
+
+/* Resets */
+
+*,
+*:after,
+*:before ***REMOVED***
+	box-sizing: border-box;
+***REMOVED***
+
+
+/* Helper classes */
+
+.cf:before,
+.cf:after ***REMOVED***
+	content: ' ';
+	display: table;
+***REMOVED***
+
+.cf:after ***REMOVED***
+	clear: both;
+***REMOVED***
+
+
+/* Main styles */
+
+body ***REMOVED***
+	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	margin: 0;
+	color: #cecece;
+	background: #2a2b30;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+***REMOVED***
+
+a ***REMOVED***
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+***REMOVED***
+
+a:hover ***REMOVED***
+	color: #ddd;
+***REMOVED***
+
+.container ***REMOVED***
+	overflow-y: auto;
+	height: 100vh;
+***REMOVED***
+
+
+/* Blueprint header */
+
+.bp-header ***REMOVED***
+	display: -webkit-flex;
+	display: flex;
+***REMOVED***
+
+.bp-header__main ***REMOVED***
+	margin: 0 0 0 auto;
+	padding: 2em 3em 0;
+	text-align: right;
+***REMOVED***
+
+.bp-header__title ***REMOVED***
+	font-size: 1.3em;
+	font-weight: 400;
+	line-height: 1.3;
+	margin: 0.25em 0 0;
+***REMOVED***
+
+.bp-header__present ***REMOVED***
+	font-size: 0.75em;
+	font-weight: 700;
+	position: relative;
+	z-index: 100;
+	display: block;
+	margin: 0 -8px 0 0;
+	padding: 0 0 0.6em 0;
+	text-indent: 3px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #5c5edc;
+***REMOVED***
+
+.bp-tooltip:after ***REMOVED***
+	position: relative;
+	top: -8px;
+	left: -8px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+***REMOVED***
+
+.bp-tooltip:hover:before ***REMOVED***
+	content: attr(data-content);
+	font-size: 110%;
+	font-weight: 700;
+	line-height: 1.2;
+	position: absolute;
+	top: 1.5em;
+	right: 0;
+	width: 50vw;
+	padding: 0.8em 1em;
+	text-align: right;
+	text-indent: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	color: #fff;
+	background: #5c5edc;
+***REMOVED***
+
+.bp-nav ***REMOVED***
+	margin: 0.5em 0 0 auto;
+	text-align: right;
+***REMOVED***
+
+.bp-nav__item ***REMOVED***
+	position: relative;
+	display: inline-block;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 0.1em;
+	text-align: left;
+	border-radius: 50%;
+***REMOVED***
+
+.bp-nav__item > span ***REMOVED***
+	display: none;
+***REMOVED***
+
+.bp-nav__item:hover:before ***REMOVED***
+	content: attr(data-info);
+	font-size: 0.85em;
+	font-weight: bold;
+	position: absolute;
+	top: 120%;
+	right: 0;
+	width: 600%;
+	text-align: right;
+	pointer-events: none;
+	color: #595a5f;
+***REMOVED***
+
+.bp-nav__item:hover ***REMOVED***
+	background: #5c5edc;
+***REMOVED***
+
+.bp-icon:after ***REMOVED***
+	font-family: 'bpicons';
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-align: center;
+	text-transform: none;
+	color: #5c5edc;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+***REMOVED***
+
+.bp-nav .bp-icon:after ***REMOVED***
+	line-height: 2.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-indent: 0;
+***REMOVED***
+
+.bp-nav a:hover:after ***REMOVED***
+	color: #fff;
+***REMOVED***
+
+.bp-icon--next:after ***REMOVED***
+	content: '\e000';
+***REMOVED***
+
+.bp-icon--drop:after ***REMOVED***
+	content: '\e001';
+***REMOVED***
+
+.bp-icon--archive:after ***REMOVED***
+	content: '\e002';
+***REMOVED***
+
+.bp-icon--about:after ***REMOVED***
+	content: '\e003';
+***REMOVED***
+
+.bp-icon--prev:after ***REMOVED***
+	content: '\e004';
+***REMOVED***
+
+.dummy-logo ***REMOVED***
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 120px;
+	padding: 1em 0 0 0;
+	text-align: center;
+	color: #3b3d4a;
+	background: #1c1d22;
+***REMOVED***
+
+.dummy-icon ***REMOVED***
+	font-size: 4em;
+***REMOVED***
+
+.dummy-heading ***REMOVED***
+	font-size: 0.75em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+***REMOVED***
+
+.content ***REMOVED***
+	position: relative;
+	min-height: 300px;
+	margin: 0 0 0 300px;
+***REMOVED***
+
+.content--loading ***REMOVED***
+	background: url(../img/loading.svg) no-repeat 50% 50%;
+***REMOVED***
+
+.products ***REMOVED***
+	margin: 0;
+	padding: 2em;
+	text-align: center;
+***REMOVED***
+
+.product ***REMOVED***
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 5px;
+	background: #1c1d22;
+***REMOVED***
+
+.product .foodicon ***REMOVED***
+	font-size: 4em;
+	line-height: 190px;
+	color: #3b3d4a;
+***REMOVED***
+
+.info ***REMOVED***
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 20vh 1em 0;
+	text-align: center;
+	color: #47484c;
+***REMOVED***
+
+body #cdawrap ***REMOVED***
+	top: auto;
+	bottom: 15px;
+	background: rgba(0, 0, 0, 0.1);
+***REMOVED***
+
+body #cdawrap .carbon-text ***REMOVED***
+	color: #505158;
+***REMOVED***
+
+body #cdawrap a.carbon-poweredby ***REMOVED***
+	color: #7883c4;
+***REMOVED***
+
+body #cdawrap a:hover.carbon-poweredby ***REMOVED***
+	color: #fff;
+***REMOVED***
+
+@media screen and (max-width: 40em) ***REMOVED***
+	.bp-header ***REMOVED***
+		padding-top: 3em;
+	***REMOVED***
+	.bp-header__main,
+	.bp-nav ***REMOVED***
+		width: 100%;
+		text-align: center;
+	***REMOVED***
+	.dummy-logo ***REMOVED***
+		display: none;
+	***REMOVED***
+	.content ***REMOVED***
+		margin: 0;
+	***REMOVED***
+	body,
+	.container ***REMOVED***
+		height: auto;
+		overflow: auto;
+	***REMOVED***
+***REMOVED***

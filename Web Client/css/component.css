@@ -1,0 +1,347 @@
+/* Icons (made with Icomoon.io) */
+
+@font-face ***REMOVED***
+	font-family: 'feather';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/feather/feather.eot?1gafuo');
+	src: url('../fonts/feather/feather.eot?1gafuo#iefix') format('embedded-opentype'), url('../fonts/feather/feather.woff2?1gafuo') format('woff2'), url('../fonts/feather/feather.ttf?1gafuo') format('truetype'), url('../fonts/feather/feather.woff?1gafuo') format('woff'), url('../fonts/feather/feather.svg?1gafuo#feather') format('svg');
+***REMOVED***
+
+.icon ***REMOVED***
+	font-family: 'feather';
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-transform: none;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	speak: none;
+***REMOVED***
+
+.icon--arrow-left:before ***REMOVED***
+	content: '\e901';
+***REMOVED***
+
+.icon--menu:before ***REMOVED***
+	content: '\e903';
+***REMOVED***
+
+.icon--cross:before ***REMOVED***
+	content: '\e117';
+***REMOVED***
+
+
+/* Menu styles */
+
+.menu ***REMOVED***
+	position: fixed;
+	top: 120px;
+	left: 0;
+	width: 300px;
+	height: calc(100vh - 120px);
+	background: #1c1d22;
+***REMOVED***
+
+.menu__wrap ***REMOVED***
+	position: absolute;
+	top: 3.5em;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+***REMOVED***
+
+.menu__level ***REMOVED***
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	overflow: hidden;
+	overflow-y: scroll;
+	width: calc(100% + 50px);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+***REMOVED***
+
+.menu__level:focus ***REMOVED***
+	outline: none;
+***REMOVED***
+
+.menu__level--current ***REMOVED***
+	visibility: visible;
+***REMOVED***
+
+.menu__item ***REMOVED***
+	display: block;
+	width: calc(100% - 50px);
+***REMOVED***
+
+.menu__link ***REMOVED***
+	font-weight: 600;
+	position: relative;
+	display: block;
+	padding: 1em 2.5em 1em 1.5em;
+	color: #bdbdbd;
+	-webkit-transition: color 0.1s;
+	transition: color 0.1s;
+***REMOVED***
+
+.menu__link[data-submenu]::after ***REMOVED***
+	content: '\e904';
+	font-family: 'feather';
+	position: absolute;
+	right: 0;
+	padding: 0.25em 1.25em;
+	color: #2a2b30;
+***REMOVED***
+
+.menu__link:hover,
+.menu__link:focus,
+.menu__link[data-submenu]:hover::after,
+.menu__link[data-submenu]:focus::after ***REMOVED***
+	color: #5c5edc;
+***REMOVED***
+
+.menu__link--current::before ***REMOVED***
+	content: '\00B7';
+	font-size: 1.5em;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	left: 0.5em;
+	height: 4px;
+	color: #5c5edc;
+***REMOVED***
+
+[class^='animate-'],
+[class*=' animate-'] ***REMOVED***
+	visibility: visible;
+***REMOVED***
+
+.animate-outToRight .menu__item ***REMOVED***
+	-webkit-animation: outToRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+	animation: outToRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+***REMOVED***
+
+@-webkit-keyframes outToRight ***REMOVED***
+	to ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+@keyframes outToRight ***REMOVED***
+	to ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+.animate-outToLeft .menu__item ***REMOVED***
+	-webkit-animation: outToLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+	animation: outToLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+***REMOVED***
+
+@-webkit-keyframes outToLeft ***REMOVED***
+	to ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+@keyframes outToLeft ***REMOVED***
+	to ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+.animate-inFromLeft .menu__item ***REMOVED***
+	-webkit-animation: inFromLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+	animation: inFromLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+***REMOVED***
+
+@-webkit-keyframes inFromLeft ***REMOVED***
+	from ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	***REMOVED***
+	to ***REMOVED***
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+@keyframes inFromLeft ***REMOVED***
+	from ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	***REMOVED***
+	to ***REMOVED***
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+.animate-inFromRight .menu__item ***REMOVED***
+	-webkit-animation: inFromRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+	animation: inFromRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+***REMOVED***
+
+@-webkit-keyframes inFromRight ***REMOVED***
+	from ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	***REMOVED***
+	to ***REMOVED***
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+@keyframes inFromRight ***REMOVED***
+	from ***REMOVED***
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	***REMOVED***
+	to ***REMOVED***
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	***REMOVED***
+***REMOVED***
+
+.menu__breadcrumbs ***REMOVED***
+	font-size: 0.65em;
+	line-height: 1;
+	position: relative;
+	padding: 2.5em 3.75em 1.5em 2.5em;
+***REMOVED***
+
+.menu__breadcrumbs a ***REMOVED***
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #5c5edc;
+***REMOVED***
+
+.menu__breadcrumbs a:last-child ***REMOVED***
+	pointer-events: none;
+***REMOVED***
+
+.menu__breadcrumbs a:hover,
+.menu__breadcrumbs a:focus ***REMOVED***
+	color: #8182e0;
+***REMOVED***
+
+.menu__breadcrumbs a:not(:last-child)::after ***REMOVED***
+	content: '\e902';
+	font-family: 'feather';
+	display: inline-block;
+	padding: 0 0.5em;
+	color: #33353e;
+***REMOVED***
+
+.menu__breadcrumbs a:not(:last-child):hover::after,
+.menu__breadcrumbs a:not(:last-child):focus::after ***REMOVED***
+	color: #33353e;
+***REMOVED***
+
+.menu__back ***REMOVED***
+	font-size: 1.05em;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	right: 2.25em;
+	margin: 0;
+	padding: 1.365em 0.65em 0 0;
+	cursor: pointer;
+	color: #2a2b30;
+	border: none;
+	background: none;
+***REMOVED***
+
+.menu__back--hidden ***REMOVED***
+	pointer-events: none;
+	opacity: 0;
+***REMOVED***
+
+.menu__back:hover,
+.menu__back:focus ***REMOVED***
+	color: #fff;
+	outline: none;
+***REMOVED***
+
+
+/* Open and close buttons */
+
+.action ***REMOVED***
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	background: none;
+***REMOVED***
+
+.action:focus ***REMOVED***
+	outline: none;
+***REMOVED***
+
+.action--open ***REMOVED***
+	font-size: 1.5em;
+	top: 1em;
+	left: 1em;
+	display: none;
+	color: #fff;
+	position: fixed;
+	z-index: 1000;
+***REMOVED***
+
+.action--close ***REMOVED***
+	font-size: 1.1em;
+	top: 1.25em;
+	right: 1em;
+	display: none;
+	color: #45464e;
+***REMOVED***
+
+@media screen and (max-width: 40em) ***REMOVED***
+	.action--open,
+	.action--close ***REMOVED***
+		display: block;
+	***REMOVED***
+	.menu ***REMOVED***
+		z-index: 1000;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+		-webkit-transition: -webkit-transform 0.3s;
+		transition: transform 0.3s;
+	***REMOVED***
+	.menu--open ***REMOVED***
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	***REMOVED***
+***REMOVED***
