@@ -1,0 +1,46 @@
+Users
+	- VendorDeviceID
+		- Name
+		- ShopName
+		- Category
+		- lat
+		- lng
+		- PhoneNo 
+		- ProductID 
+			- ProductName 
+			- ProductPrice 
+		- CustomerOrders
+			- OrderID
+				- ProductName
+				- ProductID
+				- ProductCount
+				- OrderStatus
+		- Rating : 0
+		
+			
+			
+			
+			
+Operations:
+	
+	Vendor:
+		1. Registration
+			- Add VendorDeviceID and Vendors details
+		2. Fetch All Orders
+			- Fetch all the orders from CustomerOrders node with OrderStatus as 0
+		3. Confirm Orders
+			- Update the OrderStatus
+			
+	Customer:
+		1. GetVendors
+			- Fetch all the Vendors, of a given Category and fetch All the Vendors details
+		2. GetProductsDetails
+			- Fetch product details from a given vendor and product ID
+		3. OrderProduct
+			- Create a node under CustomerOrders with order status as 0
+		4. isAccepted
+			- Check the node under VendorDeviceID, CustomerOrders, OrderID
+		5. Rate
+			- Add the points to Ratings under VendorDeviceID, Rating
+	
+		
