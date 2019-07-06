@@ -45,6 +45,7 @@ function getProducts(vendorID) ***REMOVED***
 ***REMOVED***
 
 function orderProducts(vendorID,productID,ProductName,Count) ***REMOVED***
+	alert("hello");
 	return database.ref('Users/'+vendorID+'/CustomerOrders').set(***REMOVED***
 		OrderStatus : 1,
 		ProductCount : Count,

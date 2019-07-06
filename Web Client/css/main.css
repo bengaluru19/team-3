@@ -1,0 +1,301 @@
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+
+@font-face ***REMOVED***
+  font-family: OpenSans-Regular;
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+***REMOVED***
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+* ***REMOVED***
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+***REMOVED***
+
+body, html ***REMOVED***
+	height: 100%;
+	font-family: sans-serif;
+***REMOVED***
+
+/* ------------------------------------ */
+a ***REMOVED***
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+***REMOVED***
+
+a:focus ***REMOVED***
+	outline: none !important;
+***REMOVED***
+
+a:hover ***REMOVED***
+	text-decoration: none;
+***REMOVED***
+
+/* ------------------------------------ */
+h1,h2,h3,h4,h5,h6 ***REMOVED***margin: 0px;***REMOVED***
+
+p ***REMOVED***margin: 0px;***REMOVED***
+
+ul, li ***REMOVED***
+	margin: 0px;
+	list-style-type: none;
+***REMOVED***
+
+
+/* ------------------------------------ */
+input ***REMOVED***
+  display: block;
+	outline: none;
+	border: none !important;
+***REMOVED***
+
+textarea ***REMOVED***
+  display: block;
+  outline: none;
+***REMOVED***
+
+textarea:focus, input:focus ***REMOVED***
+  border-color: transparent !important;
+***REMOVED***
+
+/* ------------------------------------ */
+button ***REMOVED***
+	outline: none !important;
+	border: none;
+	background: transparent;
+***REMOVED***
+
+button:hover ***REMOVED***
+	cursor: pointer;
+***REMOVED***
+
+iframe ***REMOVED***
+	border: none !important;
+***REMOVED***
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utiliti ]*/
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+.limiter ***REMOVED***
+  width: 100%;
+  margin: 0 auto;
+***REMOVED***
+
+.container-table100 ***REMOVED***
+  width: 100%;
+  min-height: 100vh;
+  background: #c850c0;
+  background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
+  background: -o-linear-gradient(45deg, #4158d0, #c850c0);
+  background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
+  background: linear-gradient(45deg, #4158d0, #c850c0);
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 33px 30px;
+***REMOVED***
+
+.wrap-table100 ***REMOVED***
+  width: 1170px;
+***REMOVED***
+
+table ***REMOVED***
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+***REMOVED***
+table * ***REMOVED***
+  position: relative;
+***REMOVED***
+table td, table th ***REMOVED***
+  padding-left: 8px;
+***REMOVED***
+table thead tr ***REMOVED***
+  height: 60px;
+  background: #36304a;
+***REMOVED***
+table tbody tr ***REMOVED***
+  height: 50px;
+***REMOVED***
+table tbody tr:last-child ***REMOVED***
+  border: 0;
+***REMOVED***
+table td, table th ***REMOVED***
+  text-align: left;
+***REMOVED***
+table td.l, table th.l ***REMOVED***
+  text-align: right;
+***REMOVED***
+table td.c, table th.c ***REMOVED***
+  text-align: center;
+***REMOVED***
+table td.r, table th.r ***REMOVED***
+  text-align: center;
+***REMOVED***
+
+
+.table100-head th***REMOVED***
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+***REMOVED***
+
+tbody tr:nth-child(even) ***REMOVED***
+  background-color: #f5f5f5;
+***REMOVED***
+
+tbody tr ***REMOVED***
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+***REMOVED***
+
+tbody tr:hover ***REMOVED***
+  color: #555555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+***REMOVED***
+
+.column1 ***REMOVED***
+  width: 260px;
+  padding-left: 40px;
+***REMOVED***
+
+.column2 ***REMOVED***
+  width: 160px;
+***REMOVED***
+
+.column3 ***REMOVED***
+  width: 245px;
+***REMOVED***
+
+.column4 ***REMOVED***
+  width: 110px;
+  text-align: right;
+***REMOVED***
+
+.column5 ***REMOVED***
+  width: 170px;
+  text-align: right;
+***REMOVED***
+
+.column6 ***REMOVED***
+  width: 222px;
+  text-align: right;
+  padding-right: 62px;
+***REMOVED***
+
+
+@media screen and (max-width: 992px) ***REMOVED***
+  table ***REMOVED***
+    display: block;
+  ***REMOVED***
+  table > *, table tr, table td, table th ***REMOVED***
+    display: block;
+  ***REMOVED***
+  table thead ***REMOVED***
+    display: none;
+  ***REMOVED***
+  table tbody tr ***REMOVED***
+    height: auto;
+    padding: 37px 0;
+  ***REMOVED***
+  table tbody tr td ***REMOVED***
+    padding-left: 40% !important;
+    margin-bottom: 24px;
+  ***REMOVED***
+  table tbody tr td:last-child ***REMOVED***
+    margin-bottom: 0;
+  ***REMOVED***
+  table tbody tr td:before ***REMOVED***
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.2;
+    font-weight: unset;
+    position: absolute;
+    width: 40%;
+    left: 30px;
+    top: 0;
+  ***REMOVED***
+  table tbody tr td:nth-child(1):before ***REMOVED***
+    content: "Date";
+  ***REMOVED***
+  table tbody tr td:nth-child(2):before ***REMOVED***
+    content: "Order ID";
+  ***REMOVED***
+  table tbody tr td:nth-child(3):before ***REMOVED***
+    content: "Name";
+  ***REMOVED***
+  table tbody tr td:nth-child(4):before ***REMOVED***
+    content: "Price";
+  ***REMOVED***
+  table tbody tr td:nth-child(5):before ***REMOVED***
+    content: "Quantity";
+  ***REMOVED***
+  table tbody tr td:nth-child(6):before ***REMOVED***
+    content: "Total";
+  ***REMOVED***
+
+  .column4,
+  .column5,
+  .column6 ***REMOVED***
+    text-align: left;
+  ***REMOVED***
+
+  .column4,
+  .column5,
+  .column6,
+  .column1,
+  .column2,
+  .column3 ***REMOVED***
+    width: 100%;
+  ***REMOVED***
+
+  tbody tr ***REMOVED***
+    font-size: 14px;
+  ***REMOVED***
+***REMOVED***
+
+@media (max-width: 576px) ***REMOVED***
+  .container-table100 ***REMOVED***
+    padding-left: 15px;
+    padding-right: 15px;
+  ***REMOVED***
+***REMOVED***

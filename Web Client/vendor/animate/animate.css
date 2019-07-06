@@ -1,0 +1,1579 @@
+@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Daniel Eden
+ */
+
+.animated ***REMOVED***
+  animation-duration: 1s;
+  animation-fill-mode: both;
+***REMOVED***
+
+.animated.infinite ***REMOVED***
+  animation-iteration-count: infinite;
+***REMOVED***
+
+.animated.hinge ***REMOVED***
+  animation-duration: 2s;
+***REMOVED***
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut ***REMOVED***
+  animation-duration: .75s;
+***REMOVED***
+
+@keyframes bounce ***REMOVED***
+  from, 20%, 53%, 80%, to ***REMOVED***
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  ***REMOVED***
+
+  40%, 43% ***REMOVED***
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  ***REMOVED***
+
+  70% ***REMOVED***
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  ***REMOVED***
+
+  90% ***REMOVED***
+    transform: translate3d(0,-4px,0);
+  ***REMOVED***
+***REMOVED***
+
+.bounce ***REMOVED***
+  animation-name: bounce;
+  transform-origin: center bottom;
+***REMOVED***
+
+@keyframes flash ***REMOVED***
+  from, 50%, to ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  25%, 75% ***REMOVED***
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.flash ***REMOVED***
+  animation-name: flash;
+***REMOVED***
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes pulse ***REMOVED***
+  from ***REMOVED***
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+
+  50% ***REMOVED***
+    transform: scale3d(1.05, 1.05, 1.05);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+***REMOVED***
+
+.pulse ***REMOVED***
+  animation-name: pulse;
+***REMOVED***
+
+@keyframes rubberBand ***REMOVED***
+  from ***REMOVED***
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+
+  30% ***REMOVED***
+    transform: scale3d(1.25, 0.75, 1);
+  ***REMOVED***
+
+  40% ***REMOVED***
+    transform: scale3d(0.75, 1.25, 1);
+  ***REMOVED***
+
+  50% ***REMOVED***
+    transform: scale3d(1.15, 0.85, 1);
+  ***REMOVED***
+
+  65% ***REMOVED***
+    transform: scale3d(.95, 1.05, 1);
+  ***REMOVED***
+
+  75% ***REMOVED***
+    transform: scale3d(1.05, .95, 1);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+***REMOVED***
+
+.rubberBand ***REMOVED***
+  animation-name: rubberBand;
+***REMOVED***
+
+@keyframes shake ***REMOVED***
+  from, to ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+
+  10%, 30%, 50%, 70%, 90% ***REMOVED***
+    transform: translate3d(-10px, 0, 0);
+  ***REMOVED***
+
+  20%, 40%, 60%, 80% ***REMOVED***
+    transform: translate3d(10px, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.shake ***REMOVED***
+  animation-name: shake;
+***REMOVED***
+
+@keyframes headShake ***REMOVED***
+  0% ***REMOVED***
+    transform: translateX(0);
+  ***REMOVED***
+
+  6.5% ***REMOVED***
+    transform: translateX(-6px) rotateY(-9deg);
+  ***REMOVED***
+
+  18.5% ***REMOVED***
+    transform: translateX(5px) rotateY(7deg);
+  ***REMOVED***
+
+  31.5% ***REMOVED***
+    transform: translateX(-3px) rotateY(-5deg);
+  ***REMOVED***
+
+  43.5% ***REMOVED***
+    transform: translateX(2px) rotateY(3deg);
+  ***REMOVED***
+
+  50% ***REMOVED***
+    transform: translateX(0);
+  ***REMOVED***
+***REMOVED***
+
+.headShake ***REMOVED***
+  animation-timing-function: ease-in-out;
+  animation-name: headShake;
+***REMOVED***
+
+@keyframes swing ***REMOVED***
+  20% ***REMOVED***
+    transform: rotate3d(0, 0, 1, 15deg);
+  ***REMOVED***
+
+  40% ***REMOVED***
+    transform: rotate3d(0, 0, 1, -10deg);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    transform: rotate3d(0, 0, 1, 5deg);
+  ***REMOVED***
+
+  80% ***REMOVED***
+    transform: rotate3d(0, 0, 1, -5deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: rotate3d(0, 0, 1, 0deg);
+  ***REMOVED***
+***REMOVED***
+
+.swing ***REMOVED***
+  transform-origin: top center;
+  animation-name: swing;
+***REMOVED***
+
+@keyframes tada ***REMOVED***
+  from ***REMOVED***
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+
+  10%, 20% ***REMOVED***
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  ***REMOVED***
+
+  30%, 50%, 70%, 90% ***REMOVED***
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  ***REMOVED***
+
+  40%, 60%, 80% ***REMOVED***
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+***REMOVED***
+
+.tada ***REMOVED***
+  animation-name: tada;
+***REMOVED***
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes wobble ***REMOVED***
+  from ***REMOVED***
+    transform: none;
+  ***REMOVED***
+
+  15% ***REMOVED***
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  ***REMOVED***
+
+  30% ***REMOVED***
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  ***REMOVED***
+
+  45% ***REMOVED***
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  ***REMOVED***
+
+  75% ***REMOVED***
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.wobble ***REMOVED***
+  animation-name: wobble;
+***REMOVED***
+
+@keyframes jello ***REMOVED***
+  from, 11.1%, to ***REMOVED***
+    transform: none;
+  ***REMOVED***
+
+  22.2% ***REMOVED***
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  ***REMOVED***
+
+  33.3% ***REMOVED***
+    transform: skewX(6.25deg) skewY(6.25deg);
+  ***REMOVED***
+
+  44.4% ***REMOVED***
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  ***REMOVED***
+
+  55.5% ***REMOVED***
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  ***REMOVED***
+
+  66.6% ***REMOVED***
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  ***REMOVED***
+
+  77.7% ***REMOVED***
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  ***REMOVED***
+
+  88.8% ***REMOVED***
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  ***REMOVED***
+***REMOVED***
+
+.jello ***REMOVED***
+  animation-name: jello;
+  transform-origin: center;
+***REMOVED***
+
+@keyframes bounceIn ***REMOVED***
+  from, 20%, 40%, 60%, 80%, to ***REMOVED***
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  ***REMOVED***
+
+  0% ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  ***REMOVED***
+
+  20% ***REMOVED***
+    transform: scale3d(1.1, 1.1, 1.1);
+  ***REMOVED***
+
+  40% ***REMOVED***
+    transform: scale3d(.9, .9, .9);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  ***REMOVED***
+
+  80% ***REMOVED***
+    transform: scale3d(.97, .97, .97);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  ***REMOVED***
+***REMOVED***
+
+.bounceIn ***REMOVED***
+  animation-name: bounceIn;
+***REMOVED***
+
+@keyframes bounceInDown ***REMOVED***
+  from, 60%, 75%, 90%, to ***REMOVED***
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  ***REMOVED***
+
+  0% ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  ***REMOVED***
+
+  75% ***REMOVED***
+    transform: translate3d(0, -10px, 0);
+  ***REMOVED***
+
+  90% ***REMOVED***
+    transform: translate3d(0, 5px, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.bounceInDown ***REMOVED***
+  animation-name: bounceInDown;
+***REMOVED***
+
+@keyframes bounceInLeft ***REMOVED***
+  from, 60%, 75%, 90%, to ***REMOVED***
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  ***REMOVED***
+
+  0% ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  ***REMOVED***
+
+  75% ***REMOVED***
+    transform: translate3d(-10px, 0, 0);
+  ***REMOVED***
+
+  90% ***REMOVED***
+    transform: translate3d(5px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.bounceInLeft ***REMOVED***
+  animation-name: bounceInLeft;
+***REMOVED***
+
+@keyframes bounceInRight ***REMOVED***
+  from, 60%, 75%, 90%, to ***REMOVED***
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  ***REMOVED***
+
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  ***REMOVED***
+
+  75% ***REMOVED***
+    transform: translate3d(10px, 0, 0);
+  ***REMOVED***
+
+  90% ***REMOVED***
+    transform: translate3d(-5px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.bounceInRight ***REMOVED***
+  animation-name: bounceInRight;
+***REMOVED***
+
+@keyframes bounceInUp ***REMOVED***
+  from, 60%, 75%, 90%, to ***REMOVED***
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  ***REMOVED***
+
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  ***REMOVED***
+
+  75% ***REMOVED***
+    transform: translate3d(0, 10px, 0);
+  ***REMOVED***
+
+  90% ***REMOVED***
+    transform: translate3d(0, -5px, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.bounceInUp ***REMOVED***
+  animation-name: bounceInUp;
+***REMOVED***
+
+@keyframes bounceOut ***REMOVED***
+  20% ***REMOVED***
+    transform: scale3d(.9, .9, .9);
+  ***REMOVED***
+
+  50%, 55% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  ***REMOVED***
+***REMOVED***
+
+.bounceOut ***REMOVED***
+  animation-name: bounceOut;
+***REMOVED***
+
+@keyframes bounceOutDown ***REMOVED***
+  20% ***REMOVED***
+    transform: translate3d(0, 10px, 0);
+  ***REMOVED***
+
+  40%, 45% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  ***REMOVED***
+***REMOVED***
+
+.bounceOutDown ***REMOVED***
+  animation-name: bounceOutDown;
+***REMOVED***
+
+@keyframes bounceOutLeft ***REMOVED***
+  20% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(20px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.bounceOutLeft ***REMOVED***
+  animation-name: bounceOutLeft;
+***REMOVED***
+
+@keyframes bounceOutRight ***REMOVED***
+  20% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(-20px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.bounceOutRight ***REMOVED***
+  animation-name: bounceOutRight;
+***REMOVED***
+
+@keyframes bounceOutUp ***REMOVED***
+  20% ***REMOVED***
+    transform: translate3d(0, -10px, 0);
+  ***REMOVED***
+
+  40%, 45% ***REMOVED***
+    opacity: 1;
+    transform: translate3d(0, 20px, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  ***REMOVED***
+***REMOVED***
+
+.bounceOutUp ***REMOVED***
+  animation-name: bounceOutUp;
+***REMOVED***
+
+@keyframes fadeIn ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.fadeIn ***REMOVED***
+  animation-name: fadeIn;
+***REMOVED***
+
+@keyframes fadeInDown ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInDown ***REMOVED***
+  animation-name: fadeInDown;
+***REMOVED***
+
+@keyframes fadeInDownBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInDownBig ***REMOVED***
+  animation-name: fadeInDownBig;
+***REMOVED***
+
+@keyframes fadeInLeft ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInLeft ***REMOVED***
+  animation-name: fadeInLeft;
+***REMOVED***
+
+@keyframes fadeInLeftBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInLeftBig ***REMOVED***
+  animation-name: fadeInLeftBig;
+***REMOVED***
+
+@keyframes fadeInRight ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInRight ***REMOVED***
+  animation-name: fadeInRight;
+***REMOVED***
+
+@keyframes fadeInRightBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInRightBig ***REMOVED***
+  animation-name: fadeInRightBig;
+***REMOVED***
+
+@keyframes fadeInUp ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInUp ***REMOVED***
+  animation-name: fadeInUp;
+***REMOVED***
+
+@keyframes fadeInUpBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.fadeInUpBig ***REMOVED***
+  animation-name: fadeInUpBig;
+***REMOVED***
+
+@keyframes fadeOut ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.fadeOut ***REMOVED***
+  animation-name: fadeOut;
+***REMOVED***
+
+@keyframes fadeOutDown ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutDown ***REMOVED***
+  animation-name: fadeOutDown;
+***REMOVED***
+
+@keyframes fadeOutDownBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutDownBig ***REMOVED***
+  animation-name: fadeOutDownBig;
+***REMOVED***
+
+@keyframes fadeOutLeft ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutLeft ***REMOVED***
+  animation-name: fadeOutLeft;
+***REMOVED***
+
+@keyframes fadeOutLeftBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutLeftBig ***REMOVED***
+  animation-name: fadeOutLeftBig;
+***REMOVED***
+
+@keyframes fadeOutRight ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutRight ***REMOVED***
+  animation-name: fadeOutRight;
+***REMOVED***
+
+@keyframes fadeOutRightBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutRightBig ***REMOVED***
+  animation-name: fadeOutRightBig;
+***REMOVED***
+
+@keyframes fadeOutUp ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutUp ***REMOVED***
+  animation-name: fadeOutUp;
+***REMOVED***
+
+@keyframes fadeOutUpBig ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  ***REMOVED***
+***REMOVED***
+
+.fadeOutUpBig ***REMOVED***
+  animation-name: fadeOutUpBig;
+***REMOVED***
+
+@keyframes flip ***REMOVED***
+  from ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    animation-timing-function: ease-out;
+  ***REMOVED***
+
+  40% ***REMOVED***
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    animation-timing-function: ease-out;
+  ***REMOVED***
+
+  50% ***REMOVED***
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    animation-timing-function: ease-in;
+  ***REMOVED***
+
+  80% ***REMOVED***
+    transform: perspective(400px) scale3d(.95, .95, .95);
+    animation-timing-function: ease-in;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: perspective(400px);
+    animation-timing-function: ease-in;
+  ***REMOVED***
+***REMOVED***
+
+.animated.flip ***REMOVED***
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  animation-name: flip;
+***REMOVED***
+
+@keyframes flipInX ***REMOVED***
+  from ***REMOVED***
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  ***REMOVED***
+
+  40% ***REMOVED***
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  ***REMOVED***
+
+  60% ***REMOVED***
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  ***REMOVED***
+
+  80% ***REMOVED***
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: perspective(400px);
+  ***REMOVED***
+***REMOVED***
+
+.flipInX ***REMOVED***
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+***REMOVED***
+
+@keyframes flipInY ***REMOVED***
+  from ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  ***REMOVED***
+
+  40% ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    animation-timing-function: ease-in;
+  ***REMOVED***
+
+  60% ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  ***REMOVED***
+
+  80% ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: perspective(400px);
+  ***REMOVED***
+***REMOVED***
+
+.flipInY ***REMOVED***
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInY;
+***REMOVED***
+
+@keyframes flipOutX ***REMOVED***
+  from ***REMOVED***
+    transform: perspective(400px);
+  ***REMOVED***
+
+  30% ***REMOVED***
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.flipOutX ***REMOVED***
+  animation-name: flipOutX;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+***REMOVED***
+
+@keyframes flipOutY ***REMOVED***
+  from ***REMOVED***
+    transform: perspective(400px);
+  ***REMOVED***
+
+  30% ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.flipOutY ***REMOVED***
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipOutY;
+***REMOVED***
+
+@keyframes lightSpeedIn ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  ***REMOVED***
+
+  60% ***REMOVED***
+    transform: skewX(20deg);
+    opacity: 1;
+  ***REMOVED***
+
+  80% ***REMOVED***
+    transform: skewX(-5deg);
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: none;
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.lightSpeedIn ***REMOVED***
+  animation-name: lightSpeedIn;
+  animation-timing-function: ease-out;
+***REMOVED***
+
+@keyframes lightSpeedOut ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.lightSpeedOut ***REMOVED***
+  animation-name: lightSpeedOut;
+  animation-timing-function: ease-in;
+***REMOVED***
+
+@keyframes rotateIn ***REMOVED***
+  from ***REMOVED***
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: center;
+    transform: none;
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.rotateIn ***REMOVED***
+  animation-name: rotateIn;
+***REMOVED***
+
+@keyframes rotateInDownLeft ***REMOVED***
+  from ***REMOVED***
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.rotateInDownLeft ***REMOVED***
+  animation-name: rotateInDownLeft;
+***REMOVED***
+
+@keyframes rotateInDownRight ***REMOVED***
+  from ***REMOVED***
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.rotateInDownRight ***REMOVED***
+  animation-name: rotateInDownRight;
+***REMOVED***
+
+@keyframes rotateInUpLeft ***REMOVED***
+  from ***REMOVED***
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.rotateInUpLeft ***REMOVED***
+  animation-name: rotateInUpLeft;
+***REMOVED***
+
+@keyframes rotateInUpRight ***REMOVED***
+  from ***REMOVED***
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.rotateInUpRight ***REMOVED***
+  animation-name: rotateInUpRight;
+***REMOVED***
+
+@keyframes rotateOut ***REMOVED***
+  from ***REMOVED***
+    transform-origin: center;
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.rotateOut ***REMOVED***
+  animation-name: rotateOut;
+***REMOVED***
+
+@keyframes rotateOutDownLeft ***REMOVED***
+  from ***REMOVED***
+    transform-origin: left bottom;
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.rotateOutDownLeft ***REMOVED***
+  animation-name: rotateOutDownLeft;
+***REMOVED***
+
+@keyframes rotateOutDownRight ***REMOVED***
+  from ***REMOVED***
+    transform-origin: right bottom;
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.rotateOutDownRight ***REMOVED***
+  animation-name: rotateOutDownRight;
+***REMOVED***
+
+@keyframes rotateOutUpLeft ***REMOVED***
+  from ***REMOVED***
+    transform-origin: left bottom;
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.rotateOutUpLeft ***REMOVED***
+  animation-name: rotateOutUpLeft;
+***REMOVED***
+
+@keyframes rotateOutUpRight ***REMOVED***
+  from ***REMOVED***
+    transform-origin: right bottom;
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.rotateOutUpRight ***REMOVED***
+  animation-name: rotateOutUpRight;
+***REMOVED***
+
+@keyframes hinge ***REMOVED***
+  0% ***REMOVED***
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  ***REMOVED***
+
+  20%, 60% ***REMOVED***
+    transform: rotate3d(0, 0, 1, 80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  ***REMOVED***
+
+  40%, 80% ***REMOVED***
+    transform: rotate3d(0, 0, 1, 60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(0, 700px, 0);
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.hinge ***REMOVED***
+  animation-name: hinge;
+***REMOVED***
+
+@keyframes jackInTheBox ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  ***REMOVED***
+
+  50% ***REMOVED***
+    transform: rotate(-10deg);
+  ***REMOVED***
+
+  70% ***REMOVED***
+    transform: rotate(3deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: scale(1);
+  ***REMOVED***
+***REMOVED***
+
+.jackInTheBox ***REMOVED***
+  animation-name: jackInTheBox;
+***REMOVED***
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes rollIn ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 1;
+    transform: none;
+  ***REMOVED***
+***REMOVED***
+
+.rollIn ***REMOVED***
+  animation-name: rollIn;
+***REMOVED***
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes rollOut ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  ***REMOVED***
+***REMOVED***
+
+.rollOut ***REMOVED***
+  animation-name: rollOut;
+***REMOVED***
+
+@keyframes zoomIn ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  ***REMOVED***
+
+  50% ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+.zoomIn ***REMOVED***
+  animation-name: zoomIn;
+***REMOVED***
+
+@keyframes zoomInDown ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  ***REMOVED***
+***REMOVED***
+
+.zoomInDown ***REMOVED***
+  animation-name: zoomInDown;
+***REMOVED***
+
+@keyframes zoomInLeft ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  ***REMOVED***
+***REMOVED***
+
+.zoomInLeft ***REMOVED***
+  animation-name: zoomInLeft;
+***REMOVED***
+
+@keyframes zoomInRight ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  ***REMOVED***
+***REMOVED***
+
+.zoomInRight ***REMOVED***
+  animation-name: zoomInRight;
+***REMOVED***
+
+@keyframes zoomInUp ***REMOVED***
+  from ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  ***REMOVED***
+
+  60% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  ***REMOVED***
+***REMOVED***
+
+.zoomInUp ***REMOVED***
+  animation-name: zoomInUp;
+***REMOVED***
+
+@keyframes zoomOut ***REMOVED***
+  from ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+
+  50% ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.zoomOut ***REMOVED***
+  animation-name: zoomOut;
+***REMOVED***
+
+@keyframes zoomOutDown ***REMOVED***
+  40% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+    transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  ***REMOVED***
+***REMOVED***
+
+.zoomOutDown ***REMOVED***
+  animation-name: zoomOutDown;
+***REMOVED***
+
+@keyframes zoomOutLeft ***REMOVED***
+  40% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(42px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: scale(.1) translate3d(-2000px, 0, 0);
+    transform-origin: left center;
+  ***REMOVED***
+***REMOVED***
+
+.zoomOutLeft ***REMOVED***
+  animation-name: zoomOutLeft;
+***REMOVED***
+
+@keyframes zoomOutRight ***REMOVED***
+  40% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: scale(.1) translate3d(2000px, 0, 0);
+    transform-origin: right center;
+  ***REMOVED***
+***REMOVED***
+
+.zoomOutRight ***REMOVED***
+  animation-name: zoomOutRight;
+***REMOVED***
+
+@keyframes zoomOutUp ***REMOVED***
+  40% ***REMOVED***
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  ***REMOVED***
+
+  to ***REMOVED***
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  ***REMOVED***
+***REMOVED***
+
+.zoomOutUp ***REMOVED***
+  animation-name: zoomOutUp;
+***REMOVED***
+
+@keyframes slideInDown ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideInDown ***REMOVED***
+  animation-name: slideInDown;
+***REMOVED***
+
+@keyframes slideInLeft ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideInLeft ***REMOVED***
+  animation-name: slideInLeft;
+***REMOVED***
+
+@keyframes slideInRight ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideInRight ***REMOVED***
+  animation-name: slideInRight;
+***REMOVED***
+
+@keyframes slideInUp ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  ***REMOVED***
+
+  to ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideInUp ***REMOVED***
+  animation-name: slideInUp;
+***REMOVED***
+
+@keyframes slideOutDown ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideOutDown ***REMOVED***
+  animation-name: slideOutDown;
+***REMOVED***
+
+@keyframes slideOutLeft ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideOutLeft ***REMOVED***
+  animation-name: slideOutLeft;
+***REMOVED***
+
+@keyframes slideOutRight ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    visibility: hidden;
+    transform: translate3d(100%, 0, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideOutRight ***REMOVED***
+  animation-name: slideOutRight;
+***REMOVED***
+
+@keyframes slideOutUp ***REMOVED***
+  from ***REMOVED***
+    transform: translate3d(0, 0, 0);
+  ***REMOVED***
+
+  to ***REMOVED***
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+  ***REMOVED***
+***REMOVED***
+
+.slideOutUp ***REMOVED***
+  animation-name: slideOutUp;
+***REMOVED***
