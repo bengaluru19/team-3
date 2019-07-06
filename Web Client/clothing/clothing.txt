@@ -1,0 +1,7 @@
+Vendor		Image	Price	Details
+
+Silk house		silk	1450	Kanchipuram Silk Saree
+Womens Fashion	chiffon	600	Blue Chiffon Saree with blouse
+		chudi	899	Chudidhar material semi stitched
+Chutti Shop	ps	499	Pant shirt set for kids
+Mens World	lungi	249	Blue brown checked lungi
