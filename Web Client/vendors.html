@@ -26,7 +26,21 @@
   <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
 								<script src="dummyFun.js"></script>
-	<input type="button" onclick="orderProducts(123,70,'Apple',800)" style="position:absolute;top:500px;left:600px;height:50px;width:200px;background-color:white;" value="Click here" onfocus="style=background-color:green"/>
+								<script>
+								function display()***REMOVED***
+								document.getElementByID('wait').visible=true;
+								***REMOVED***
+								function check()***REMOVED***
+									If(isAccepted(123,111)=="Accepted")
+										alert("Success");
+									else if(isAccepted(123,111)=="Rejected")
+										alert("Rejected");
+									else
+										alert("Still awaiting confirmation");
+								***REMOVED***
+								</script>
+								<div id="wait" style="background-color:white;position:absolute;top:400px;left:500px;display:none;"><p>"Please wait till the we get confirmation from the vender...."</p><input type="button" value="Refresh" onclick="check()"/></div>  
+	<input type="button" onclick="orderProducts(123,70,'Apple',800);display()" style="position:absolute;top:500px;left:600px;height:50px;width:200px;background-color:white;" value="Click here" onfocus="style=background-color:green"/>
 	<div class="limiter">
 		<div class="container-table100">
 			<div class="wrap-table100">
@@ -36,6 +50,7 @@
 							<tr class="table100-head">
 								<th class="column1">Vendor Name</th>
 								<th class="column2">Vendor Distance</th>
+								<th class="column2">Average Customer Ratings</th>
 								<th class="column3">Select Your Order</th>
 								<th class="column3">Select Quantity</th>
 							</tr>
@@ -55,7 +70,7 @@ var z=y[1];
 //console.log(res.length);
 
 var table="";
-table+="<tr><td>Vikas</td><td>5km</td><td><select><option>Apple</option><option>Banana</option></select><td><input type=\"number\"/></tr><tr><td>"+"Raju"+"</td><td>6km</td><td><select><option>Mango</option><option>Orange</option></select></td><td><input type=\"number\"/></td></tr>";
+table+="<tr><td>Vikas</td><td>5km</td><td>4.5/5</td><td><select><option>Apple</option><option>Banana</option></select></td><td><input type=\"number\"/></td></tr><tr><td>"+"Raju"+"</td><td>6km</td><td>3.5/5</td><td><select><option>Mango</option><option>Orange</option></select></td><td><input type=\"number\"/></td></tr>";
 	table+="</table>";
 	//console.log(table);
 	document.write(table);
